@@ -8,6 +8,7 @@ The emotion, genre, artist, language, and movie of the current song
 A complementary or similar emotion from Plutchik's emotion wheel
 
 **Data Used**
+
 A local CSV file (songs_db.csv) containing 100 uniquely curated songs:
 
 60 Telugu, 20 Hindi, 20 English
@@ -19,6 +20,7 @@ title, artist, movie, language, genre, emotion
 No external API or internet required — runs fully offline using local data.
 
 **How It Works**
+
 User chooses a song by selecting from the top 10 list or typing the title.
 
 User gives a rating (1 to 3):
@@ -38,6 +40,7 @@ Language consistency
 Artist and movie match
 
 **Features**
+
 Built entirely in Python
 
 No GUI or web interface — simple command-line interface
@@ -51,6 +54,7 @@ Weighted relevance based on artist/movie
 Fully customizable song list (just update the CSV!)
 
 **Libraries Used**
+
 pandas — for reading and filtering the CSV
 
 random — for unbiased selection in neutral cases
